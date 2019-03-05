@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tit"
+        android:title="options"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/face"
+        android:title="security"
+
+        app:showAsAction="never" />
+    <item android:id="@+id/book"
+        android:title="borrow"
+        app:showAsAction="never" />
+    <item android:id="@+id/prices"
+        android:title="setting"
+        app:showAsAction="never" />
+    <item android:id="@+id/payments"
+        android:title="payments"
+        app:showAsAction="never" />
+    <item android:id="@+id/not"
+        android:title="notifications"
+        app:showAsAction="never" />
+    <item android:id="@+id/privacy"
+        android:title="policy"
+        app:showAsAction="never" />
+</menu>
